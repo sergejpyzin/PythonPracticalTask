@@ -11,13 +11,11 @@
 
 totalCranes = int(input("Введите общее количество созданых журавликов: "))
 
-# totalCranes = 2x + 4x
-# x  = totalCranes / 6
-
 if totalCranes % 6 == 0:
     serjeyCranes = totalCranes / 6
     piterCranes = totalCranes / 6
     katyaCranes = 2 * (serjeyCranes + piterCranes)
+
 
     print("Сережа изготовил:", serjeyCranes, "журавликов")
     print("Петя изготовил:", piterCranes, "журавликов")
